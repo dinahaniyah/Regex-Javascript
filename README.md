@@ -8,3 +8,4 @@
 4. Match method
 5. More Than the First Match ( g flag)
 6. Matching anything with Wildcard
+7. Character Classess /[]/
