@@ -1,0 +1,19 @@
+let myString  = "Hello World !";
+let findString = /Hello/;
+
+// This is the code 
+let result = findString.test(myString);
+
+console.log (result);
+
+// The result is
+//====================================
+true
+//====================================
+
+
+/* 
+====================================================
+To find the string "Hello", I can use expression "/Hello/". Furthermore, to test the regex, I can use .test();
+====================================================
+*/
