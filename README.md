@@ -6,3 +6,4 @@
 2. Matching the literal string with different possibilities (test method)
 3. Ignore the case while matching (test method)
 4. Match method
+5. More Than the First Match ( g flag)
