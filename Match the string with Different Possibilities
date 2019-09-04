@@ -1,0 +1,15 @@
+let mySentence = "I traveled around the world by car";
+let findString = /car|bike|plane/;
+
+let result = findString.test(mySentence);
+
+// the result 
+==========================
+true
+==========================
+
+/* 
+===========================================================
+For searching multiply patterns, I can use operator OR : | 
+===========================================================
+*/
