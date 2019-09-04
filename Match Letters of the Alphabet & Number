@@ -1,11 +1,11 @@
-let quoteSample = "The quick brown fox jumps over the lazy dog.";
-let alphabetRegex = /[a-z]/ig; // <- This is the code 
+let quoteSample = "The quick brown fox jumps over the lazy dog 3.141592653.";
+let alphabetRegex = /[a-z2-6]/ig; // <- This is the code 
 
 let result = quoteSample.match(alphabetRegex);
 
 // The result 
 //============================================
-// T,h,e,q,u,i,c,k,b,r,o,w,n,f,o,x,j,u,m,p,s,o,v,e,r,t,h,e,l,a,z,y,d,o,g
+// T,h,e,q,u,i,c,k,b,r,o,w,n,f,o,x,j,u,m,p,s,o,v,e,r,t,h,e,l,a,z,y,d,o,g,3,4,5,2,6,5,3
 //============================================
 
 /*
