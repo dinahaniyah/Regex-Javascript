@@ -1,11 +1,11 @@
-let longString = "Let's have fun, bun, pun "
-let findString = /.un/ig;  //<- This is the code
+let longString = "Let's have fun "
+let findString = /.un/;  //<- This is the code
 
 let result =findString.match(longString);
 
 // The result 
 // ===============================
-fun, bun, pun
+fun
 // ==============================
 
 /*
