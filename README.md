@@ -9,3 +9,4 @@
 5. More Than the First Match ( g flag)
 6. Matching anything with Wildcard
 7. Character Classess /[]/
+8. Match Letters of the Alphabet
