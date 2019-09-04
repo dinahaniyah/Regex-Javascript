@@ -4,3 +4,4 @@
 ### List of my regex :
 1. Using Test Method
 2. Matching the literal string with different possibilities
+3. Ignore the case while matching
