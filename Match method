@@ -1,0 +1,13 @@
+let myString = "Do not give up";
+let findString = /GIVE/i;
+
+let result = findString.match(myString);  //<- the code here
+
+// the result 
+// ==============================
+give
+// ==============================
+
+/*
+.match method extract the actual match string that found.
+*/
