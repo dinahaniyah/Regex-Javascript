@@ -1,5 +1,5 @@
 let mySentence = "Welcome here, Everyone!"
-let findWord = /everyone/i;    //<- this is the code
+let findWord = /eVERYone/i;    //<- this is the code
 
 let result = findWord.test(mySentence);
 
