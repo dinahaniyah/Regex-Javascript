@@ -1,7 +1,7 @@
 let myString = "Do not give up";
 let findString = /GIVE/i;
 
-let result = findString.match(myString);  //<- the code here
+let result = myString.match(findString);  //<- the code here
 
 // the result 
 // ==============================
