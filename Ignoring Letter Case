@@ -1,0 +1,16 @@
+let mySentence = "Welcome here, Everyone!"
+let findWord = /everyone/i;    //<- this is the code
+
+let result = findWord.test(mySentence);
+
+//the result 
+//=============================
+true
+//=============================
+
+
+/*
+I can match the string that i want to find by ignoring the Case. It can happend by adding the flag.
+The flag that can be used to ignore the Case is "i".
+By adding this flag, I can get the true result by ignoring the Letter Case (uppercase, lowercase,)
+*/
