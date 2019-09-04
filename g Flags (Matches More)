@@ -1,0 +1,13 @@
+let myString = "Hello, hello, HELlo WORLD!";
+let findString = /hello/ig; //<- the code here
+
+let result = findString.match(myString);
+
+// the result 
+// =====================================
+// Hello, hello, HeLlo
+// =====================================
+
+/*
+g flag is use to find more than one match of string
+*/
