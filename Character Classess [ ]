@@ -1,0 +1,14 @@
+let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /b[aeiou]/ig; // <- This is the code
+
+
+let result = quoteSample.match(vowelRegex); 
+
+// The result 
+// =================================================
+//Be,bu,bo
+// =================================================
+
+/* 
+Character class ([]) allow to define group characters that want to be matches.
+*/
