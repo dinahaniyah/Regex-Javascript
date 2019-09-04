@@ -1,0 +1,13 @@
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/ig; // <- This is the code 
+
+let result = quoteSample.match(alphabetRegex);
+
+// The result 
+//============================================
+// T,h,e,q,u,i,c,k,b,r,o,w,n,f,o,x,j,u,m,p,s,o,v,e,r,t,h,e,l,a,z,y,d,o,g
+//============================================
+
+/*
+Inside a character set, you can define a range of characters to match using a hyphen character: -.
+*/
