@@ -1,0 +1,13 @@
+let longString = "Let's have fun, bun, pun "
+let findString = /.un/ig;  //<- This is the code
+
+let result =findString.match(longString);
+
+// The result 
+// ===============================
+fun, bun, pun
+// ==============================
+
+/*
+The wildcard(do) (.) can be use to find the string without know exact all of the character
+*/
