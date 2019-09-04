@@ -1,7 +1,7 @@
 let myString = "Hello, hello, HELlo WORLD!";
 let findString = /hello/ig; //<- the code here
 
-let result = findString.match(myString);
+let result = myString.match(findString);
 
 // the result 
 // =====================================
